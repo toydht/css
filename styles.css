@@ -12,3 +12,11 @@ ul {
 nav ul li {
   display: inline;
 }
+
+li.referenced:before {
+  content: "> ";
+}
+
+li.referenced:after {
+  content: " <";
+}
