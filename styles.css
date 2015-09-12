@@ -13,10 +13,10 @@ nav ul li {
   display: inline;
 }
 
-li.referenced:before {
+li a.referenced:before {
   content: "> ";
 }
 
-li.referenced:after {
+li a.referenced:after {
   content: " <";
 }
